@@ -3,9 +3,14 @@
 A nice, simple deck of cards library.
 
 ## Installation
+To get started right away:
 ```
+git clone
+bundle install
+pry
 require './lib/deck.rb
 ```
+`rspec` to run tests :]
 
 ## Tutorial
 Create a new deck:
