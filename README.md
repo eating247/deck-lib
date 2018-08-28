@@ -2,6 +2,11 @@
 
 A nice, simple deck of cards library.
 
+## Installation
+```
+require './lib/deck.rb
+```
+
 ## Tutorial
 Create a new deck:
 ```
@@ -33,3 +38,4 @@ card.match?('Q', 'spades')
  1. Add some type of sorting mechanism. Didn't attempt this as I believe sorting varies from game to game
  2. Expand to accommodate different card systems (tarot, hanafuda, etc). Tried to take this into consideration which is why I chose to modularize the Ranks/Suits values. I imagine that module could grow to include different customizations for different decks.
  3. Add a separate Hand class. Given the parameters of this project I chose not to implement it as I couldn't really think of any functionality apart from sorting (see #1).
+ 4. Gemify this!
