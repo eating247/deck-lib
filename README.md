@@ -5,10 +5,10 @@ A nice, simple deck of cards library.
 ## Installation
 To get started right away:
 ```
-git clone
-bundle install
-pry
-require './lib/deck.rb
+$ git clone https://github.com/eating247/deck-lib.git
+$ bundle install
+$ pry
+$ require './lib/deck.rb'
 ```
 `rspec` to run tests :]
 
